@@ -8,4 +8,4 @@
 // ==/UserScript==
 
 var listItem = document.getElementsById("stats_seedpoints")[0];
-listItem.innerHTML = "<a href='whatever'>" + listItem.innerHTML + "</a>";
+listItem.innerHTML = "<a href='market.php'>" + listItem.innerHTML + "</a>";
