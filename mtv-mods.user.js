@@ -8,10 +8,5 @@
 // @require      http://cdnjs.com/libraries/p5.js
 // ==/UserScript==
 
-var ele = document.getElementById('stats_seedpoints');
-var wrapper = document.CreateElement('a href="market.php"');
-
-function setup {
-	el.parentNode.insertBefore(wrapper, ele);
-	wrapper.appendChild(ele);
-}
+var listItem = document.getElementsById("stats_seedpoints")[0];
+listItem.innerHTML = "<a href='whatever'>" + listItem.innerHTML + "</a>";
