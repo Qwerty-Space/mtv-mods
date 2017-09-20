@@ -8,6 +8,6 @@ At the moment this Tampermonkey userscript fixes some styling issues, and adds a
 * Tampermonkey for Chrome
 * Greasemonkey for Firefox
 
----
+#
 
 Please feel free to submit a pull request to add your own scripts, or changes to the existing script.
