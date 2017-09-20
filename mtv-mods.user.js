@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         MTV mods
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  It's in the name
-// @author       Qwerty-Space
-// @match        https://www.morethan.tv/
+// @author       Qwerty-Space and Jimpi27
+// @match        https://www.morethan.tv/*
 // ==/UserScript==
 
 var listItem = document.getElementById("stats_seedpoints");
-listItem.innerHTML = "<a href='market.php'>" + listItem.innerHTML + "</a>";
+listItem.innerHTML = "<a href='market.php'>" + listItem.firstChild.textContent + "</a>" + listItem.lastElementChild.outerHTML;
