@@ -7,5 +7,5 @@
 // @match        https://www.morethan.tv/
 // ==/UserScript==
 
-var listItem = document.getElementsById("stats_seedpoints")[0];
+var listItem = document.getElementById("stats_seedpoints");
 listItem.innerHTML = "<a href='market.php'>" + listItem.innerHTML + "</a>";
